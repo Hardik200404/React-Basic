@@ -1,4 +1,5 @@
 import ExpenseItems from "./components/ExpenseItems"
+import Counter from "./components/Counter"
 
 function App() {
   let expenses = [
@@ -15,6 +16,7 @@ function App() {
           )
         })
       }
+      <Counter></Counter>
     </div>
   )
 }
